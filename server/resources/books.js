@@ -4,7 +4,7 @@ module.exports = {
          Author: "Thomas Bernhard",
          Category: "Fiction",
          Rating: 4,
-         Availible: true,
+         Available: true,
          Comments: [
              {user: "pascallion", content: "Glum and gloomy!"} 
          ]
@@ -14,7 +14,7 @@ module.exports = {
         Author: "Friedrich Nietzsche",
         Category: "Philosophy",
         Rating: 4,
-        Availible: true,
+        Available: true,
         Comments: [
         {user: "foucault65", content: "I have the will to power, but lack the will to read!"} 
     ] 
@@ -24,7 +24,7 @@ module.exports = {
         Author: "David Foster Wallace",
         Category: "Fiction",
         Rating: 5,
-        Availible: false,
+        Available: false,
         Comments: [
                     {user: "franzen55", content: "Fantastic!"}, {user:"tolstoy77", content: "Too long!"}
                 ] 
@@ -34,7 +34,7 @@ module.exports = {
         Author: "Ludwig Wittgenstein",
         Category: "Philosophy",
         Rating: 5,
-        Availible: false,
+        Available: false,
         Comments: [
         {user: "kripke39", content: "This book is great!"}, {user: "anscombe44", content: "Changed my life"}
     ]

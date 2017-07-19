@@ -33,6 +33,10 @@ app.get('books/:author', (req, res)=>{
     }
 });
 
+app.get('/books/:id/comments', (req, res)=>{
+    res.json(books[req.params.id].Comments);
+});
+
 app.post('/books/:id/comments', (req, res)=>{
     let nextCommentIndex = books[req.params.id].Comments.length; 
    if(req.body.hasOwnProperty('user') && req.body.hasOwnProperty('content')){
@@ -44,9 +48,13 @@ app.post('/books/:id/comments', (req, res)=>{
 app.get('/books/filter', (req, res)=>{
     let result = {};
     for (book in books) {
-        if (book.Availible === req.query.availible && book.Rating >= req.query.rating){
+        if (book.Available === req.query.available && book.Rating >= req.query.rating){
             result[book] = book;
         }
     } 
     res.json(result);
+});
+
+app.listen(3000, ()=>{
+    console.log("Server started at localhost:3000");
 });
