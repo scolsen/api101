@@ -1,0 +1,10 @@
+{
+    "Title": "Infinite Jest",
+    "Author": "David Foster Wallace",
+    "Category": "Fiction",
+    "Rating": 5,
+    "Availible": false,
+    "Comments": [
+                    {"user": "franzen55", "content": "Fantastic!"}, {"user":"tolstoy77", "content": "Too long!"}
+                ]
+}

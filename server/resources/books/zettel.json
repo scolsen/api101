@@ -1,0 +1,10 @@
+{
+    "Title": "Zettel",
+    "Author": "Ludwig Wittgenstein",
+    "Category": "Philosophy",
+    "Rating": 5,
+    "Availible": false,
+    "Comments": [
+        {"user": "kripke39", "content": "This book is great!"}, {"user": "anscombe44", "content": "Changed my life"}
+    ]
+}
