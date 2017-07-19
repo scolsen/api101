@@ -1,0 +1,22 @@
+{
+  "name": "api-server-demo",
+  "version": "1.0.0",
+  "description": "A tiny API demo server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scolsen/api101.git"
+  },
+  "author": "Scott Olsen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/scolsen/api101/issues"
+  },
+  "homepage": "https://github.com/scolsen/api101#readme",
+  "devDependencies": {
+    "express": "^4.15.3"
+  }
+}
