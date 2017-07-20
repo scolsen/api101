@@ -1,0 +1,10 @@
+{
+   "query" : "{  
+            user(login: \"scolsen\") {
+                avatarUrl
+                repositories {
+                    totalCount
+                }
+        } 
+    }"
+}
