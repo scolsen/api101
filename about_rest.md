@@ -15,6 +15,3 @@ REST has the following important properties:
 
 * **Uniform:** REST requires applications utilize a uniform interface for communication between components. Data sent and retrieved by REST style applications must follow a limited set of constraints to ensure information remains portable and scalable, yet remains rich enough to remain useful to clients. HTTP messages and other meta and control data are used to capture the intent of clients as well as the current state of an intended resource, which is identifiable by a uniform resource identifier (URI). Uniformity enables clients and servers to rely on consistent communication structures while remaning flexible as to how to implement this data. For instance, a server may run particular functionality upon recieving a GET request, and respond with data detailing the contents of an image. A client communicating with this server does not need to know anything about the server's backend processes, nor does it even have to render the recieved image data in a particular way--it has no contract with the server beyond the communication format. 
 
-## Limitations of REST 
-
-
