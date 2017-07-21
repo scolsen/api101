@@ -38,8 +38,6 @@ app.get('/books/:id/comments', (req, res)=>{
 });
 
 app.post('/books/:id/comments', (req, res)=>{
-    let nextCommentIndex = books[req.params.id].Comments.length; 
-   if(req.body.hasOwnProperty('user') && req.body.hasOwnProperty('content')){
     //How might we add a comment?   
 } 
    res.json(books[req.params.id].Comments);
